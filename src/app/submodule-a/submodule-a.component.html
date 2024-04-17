@@ -1,0 +1,10 @@
+<div style="border: 1px solid black; padding: 16px; margin: 32px;">
+    <h2>Submodule A</h2>
+
+    <button type="button" routerLink="text">Open manifesto</button>
+    <button type="button" routerLink="menu">Open menu</button>
+
+    <input type="text" [(ngModel)]="inputText" (change)="setData()">
+
+    <router-outlet />
+</div>
